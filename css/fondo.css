@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(#00000091, #00000091),  url("../img/netflix-fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

@@ -1,0 +1,147 @@
+@import url('fondo.css');
+.cabecera {
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+
+.logo {
+    width: 148px;
+}
+
+.seleccion-idioma {
+    padding: 8px 20px;
+    background-color: #111;
+    color: white;
+    border: 1px solid #616162;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.seleccion-idioma:focus {
+    border: 3px solid #fff;
+}
+
+.boton-inicio {
+    padding: 8px 20px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.contenido {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 0px 360px;
+    text-align: center;
+}
+
+.texto-1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.texto-2 {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.texto-3 {
+    font-size: 24px;
+    padding: 10px 0px;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    padding: 15px 8px;
+    background-color: #111;
+    color: white;
+    border: 1px solid #616162;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 60%;
+}
+
+.input:focus {
+    border: 3px solid #fff;
+}
+
+.boton-comenzar {
+    padding: 15px 15px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px) {
+    .cabecera {
+        padding: 0px 25px;
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    .seleccion-idioma {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .boton-inicio {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .contenido {
+        padding: 0px 10px;
+    }
+
+    .texto-1 {
+        font-size: 32px;
+    }
+
+    .texto-2 {
+        font-size: 16px;
+    }
+
+    .texto-3 {
+        font-size: 18px;
+        padding: 10px 45px;
+    }
+
+    .formulario {
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 20%;
+    }
+
+    .input {
+        padding: 10px 8px;
+        font-size: 20px;
+        width: 60%;
+    }
+
+    .boton-comenzar {
+        padding: 10px 8px;
+        font-size: 22px;
+    }
+}
